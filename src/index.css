@@ -11,3 +11,134 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn{
+  padding: 20px 25px;
+}
+.btnedit{
+  background: #007bff !important;
+}
+
+
+
+.slider-area{
+  margin-top:-5px
+}
+.boxed-btn{
+  padding: 5px 20px;
+}
+
+.my-menu{
+  display: flex;
+  justify-content: space-between;
+}
+.mob-btn{
+  display: none;
+}
+.logo-wrapper{
+  width: auto;
+}
+
+.select-form{
+  padding-top: 20px;
+background-color: white;}
+
+.select-itms select{
+  border: none;
+  outline: none;
+  border-color: transparent;
+}
+.hero-img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  /* background: url('/assets/img/hero/h1_hero.jpg'); */
+}
+
+.section-tittle h2{
+  margin-bottom: 20px;
+  font-size: 40px;
+} 
+
+@media (max-width: 992px) {
+  .logo-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .btn{
+    padding: 15px 20px;
+  }
+  .container{
+    width: 800px;
+  }
+  .slider-area{
+    margin-top: -50px;
+  }
+  .submenu{
+    visibility: visible;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    opacity: 1;
+  }
+  .hero-img{
+    display: none;
+  }
+  .menu-wrapper1{
+    width: 100%;
+    display: none;
+    transform: translatex(-200%);
+    transition: transform .5s ease-in;
+  }
+  .mob-view{
+    display: flex;
+    transform: translatex(0);
+    transition: transform .5s ease-in;
+  }
+  #navigation{
+    display: flex;
+    flex-direction: column;
+  }
+  #navigation li {
+    text-align: center;
+  }
+  #navigation li a {
+    padding: 10px 20px;
+  }
+  .btns{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .menu-wrapper{
+    display: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .mob-btn{
+    display: flex;
+  }
+  .listMenu{
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .main-menu{
+    width: 100%;
+  }
+  .listMenu li a{
+    width: 100%;
+  }
+  
+}
+
