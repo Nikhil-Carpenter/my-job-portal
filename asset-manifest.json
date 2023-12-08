@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/my-job-portal.git/static/css/main.0790714d.css",
+    "main.js": "/my-job-portal.git/static/js/main.a37eb5d5.js",
+    "index.html": "/my-job-portal.git/index.html",
+    "main.0790714d.css.map": "/my-job-portal.git/static/css/main.0790714d.css.map",
+    "main.a37eb5d5.js.map": "/my-job-portal.git/static/js/main.a37eb5d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0790714d.css",
+    "static/js/main.a37eb5d5.js"
+  ]
+}
